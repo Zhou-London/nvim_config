@@ -1,0 +1,1 @@
+vim.o.guifont = "GoogleSansCode Nerd Font:h18"
