@@ -23,3 +23,7 @@ end, {
     desc = "Format file"
 })
 
+-- Buffer
+vim.keymap.set("n", "]b", "<cmd>bn<CR>")
+vim.keymap.set("n", "[b", "<cmd>bp<CR>")
+vim.keymap.set("n", "[]", "<cmd>b#<CR>")
