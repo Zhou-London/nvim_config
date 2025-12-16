@@ -21,7 +21,7 @@ return {{
             sections = {
                 lualine_a = {{
                     "mode",
-                    icon = ""
+                    icon = ""
                 }},
 
                 lualine_b = {{
@@ -30,9 +30,9 @@ return {{
                 }, {
                     "diff",
                     symbols = {
-                        added = "+",
-                        modified = "~",
-                        removed = "-"
+                        added = "",
+                        modified = "󰬂",
+                        removed = ""
                     }
                 }},
 

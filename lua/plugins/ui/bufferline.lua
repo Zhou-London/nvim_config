@@ -6,7 +6,7 @@ return {{
     opts = {
         options = {
             mode = "buffers", -- buffers | tabs
-            numbers = "none", -- none | ordinal | buffer_id
+            numbers = "ordinal", -- none | ordinal | buffer_id
             indicator = {
                 style = "icon",
                 icon = "┋"
@@ -14,9 +14,10 @@ return {{
             separator_style = "thin", -- slant | padded_slant | slope | thin | thick
             diagnostics = "nvim_lsp",
             diagnostics_indicator = function(count, level)
-                local icon = level:match("error") and " " or " "
+                local icon = level:match("error") and " " or " "
                 return icon .. count
             end,
+            modified_icon = "",
             color_icons = true,
             offsets = {{
                 filetype = "NvimTree",
