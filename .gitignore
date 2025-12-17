@@ -1,2 +1,5 @@
 # Deps
 lazy-lock.json
+
+# Cache
+.DS_Store
