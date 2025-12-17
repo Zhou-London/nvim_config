@@ -7,7 +7,7 @@ return {
 		opts = {
 			options = {
 				mode = "buffers", -- buffers | tabs
-				numbers = "ordinal", -- none | ordinal | buffer_id
+				numbers = "none", -- none | ordinal | buffer_id
 				indicator = {
 					style = "icon",
 					icon = "┋",
@@ -18,7 +18,7 @@ return {
 					local icon = level:match("error") and " " or ""
 					return icon .. count
 				end,
-				modified_icon = "",
+				modified_icon = "󰰐",
 				color_icons = true,
 				offsets = {
 					{

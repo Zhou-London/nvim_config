@@ -13,29 +13,30 @@ return {
 			enable = true,
 			show_on_dirs = true,
 			icons = {
-				hint = "",
-				info = "",
+				hint = "",
+				info = "",
 				warning = "",
 				error = "",
 			},
 		},
 
 		renderer = {
+            highlight_git = true,
 			icons = {
 				show = {
-					git = true,
+					git = false, -- true if you wish
 				},
-				glyphs = {
-					git = {
-						unstaged = "",
-						staged = "󱓟",
-						unmerged = "",
-						renamed = "",
-						untracked = "",
-						deleted = "",
-						ignored = "",
-					},
-				},
+				--glyphs = {
+					--git = {
+						--unstaged = "",
+						--staged = "󱓟",
+						--unmerged = "",
+						--renamed = "",
+						--untracked = "",
+						--deleted = "",
+						--ignored = "",
+					--},
+				--},
 			},
 		},
 	},

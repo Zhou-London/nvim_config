@@ -33,9 +33,9 @@ return {
 						{
 							"diff",
 							symbols = {
-								added = "",
-								modified = "",
-								removed = "",
+								added = " ",
+								modified = " ",
+								removed = " ",
 							},
 						},
 					},
@@ -52,10 +52,6 @@ return {
 					},
 
 					lualine_x = {
-						{
-							"diagnostics",
-							sources = { "nvim_lsp" },
-						},
 						{
 							function()
 								local clients = vim.lsp.get_active_clients({
