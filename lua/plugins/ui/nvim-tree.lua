@@ -20,22 +20,26 @@ return {
 			},
 		},
 
+		view = {
+			preserve_window_proportions = true,
+		},
+
 		renderer = {
-            highlight_git = true,
+			highlight_git = true,
 			icons = {
 				show = {
 					git = false, -- true if you wish
 				},
 				--glyphs = {
-					--git = {
-						--unstaged = "",
-						--staged = "󱓟",
-						--unmerged = "",
-						--renamed = "",
-						--untracked = "",
-						--deleted = "",
-						--ignored = "",
-					--},
+				--git = {
+				--unstaged = "",
+				--staged = "󱓟",
+				--unmerged = "",
+				--renamed = "",
+				--untracked = "",
+				--deleted = "",
+				--ignored = "",
+				--},
 				--},
 			},
 		},

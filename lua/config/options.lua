@@ -46,7 +46,27 @@ vim.diagnostic.config({
 	update_in_insert = false,
 })
 
-vim.api.nvim_set_hl(0, "NvimTreeGitNew", { fg = "#6b8e23" })
-vim.api.nvim_set_hl(0, "NvimTreeGitDirty", { fg = "#c0a36e" })
-vim.api.nvim_set_hl(0, "NvimTreeGitDeleted", { fg = "#8b5f65" })
-vim.api.nvim_set_hl(0, "NvimTreeGitIgnored", { fg = "#5c6370" })
+vim.api.nvim_set_hl(0, "NvimTreeGitNew", {
+  fg = "#6b8e23",
+})
+
+vim.api.nvim_set_hl(0, "NvimTreeGitDirty", {
+  fg = "#c0a36e",
+})
+
+vim.api.nvim_set_hl(0, "NvimTreeGitDeleted", {
+  fg = "#8b5f65",
+})
+
+vim.api.nvim_set_hl(0, "NvimTreeGitRenamed", {
+  fg = "#7aa2f7",
+})
+
+vim.api.nvim_set_hl(0, "NvimTreeGitIgnored", {
+  fg = "#5c6370",
+})
+
+vim.api.nvim_set_hl(0, "NvimTreeIndentMarker", {
+  fg = "NONE",
+  bg = "NONE",
+})

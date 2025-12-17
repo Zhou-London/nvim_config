@@ -25,7 +25,8 @@ return {
 						filetype = "NvimTree",
 						text = "Explorer",
 						highlight = "Directory",
-						text_align = "left",
+						separator = false,
+
 					},
 				},
 				show_buffer_close_icons = true,
