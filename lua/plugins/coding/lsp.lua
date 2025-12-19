@@ -30,7 +30,14 @@ return {
 			},
 		}
 
+		vim.lsp.config["cmake_lsp"] = {
+			cmd = { "cmake-language-server" },
+			filetypes = { "cmake" },
+			capabilities = capabilities,
+		}
+
 		vim.lsp.enable("clangd")
 		vim.lsp.enable("lua_ls")
+        vim.lsp.enable("cmake_lsp")
 	end,
 }
