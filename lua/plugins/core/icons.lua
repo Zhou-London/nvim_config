@@ -49,6 +49,11 @@ return {
 						color = "#4dedff",
 						name = "rdme",
 					},
+                    [".clangd"] = {
+                        icon = "",
+                        color = "#1c913d",
+                        name = "llvm-clangd-config"
+                    },
 				},
 				-- same as `override` but specifically for overrides by extension
 				-- takes effect when `strict` is true
@@ -77,6 +82,11 @@ return {
 						icon = "",
 						color = "#cb48f7",
 						name = "Cpp-hpp",
+					},
+					["inl"] = {
+						icon = "󰙲",
+						color = "#cb48f7",
+						name = "Cpp-inl",
 					},
 					["cu"] = {
 						icon = "",

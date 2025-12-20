@@ -12,6 +12,12 @@ return {
 				"--header-insertion=iwyu",
 			},
 			filetypes = { "c", "cc", "cpp" },
+			init_options = {
+				inlayHints = {
+					enabled = true,
+				},
+			},
+
 			capabilities = capabilities,
 		}
 
@@ -35,9 +41,10 @@ return {
 			filetypes = { "cmake" },
 			capabilities = capabilities,
 		}
-
+        
+        vim.lsp.inlay_hint.enable(true)
 		vim.lsp.enable("clangd")
 		vim.lsp.enable("lua_ls")
-        vim.lsp.enable("cmake_lsp")
+		vim.lsp.enable("cmake_lsp")
 	end,
 }
